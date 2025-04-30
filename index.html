@@ -4,23 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62fea235f7.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <!-- header row with logo -->
-    <div class="header">
-        <img id="tentacles" src="assets/tentacles.png">
-        <h1 class="header-text">Sea Monster Crowdfunding</h1>
-    </div>
+    <!-- nav row with logo -->
+     <nav class="navbar">
+        <div class="navbar-left">
+            <img id="tentacles" src="assets/tentacles.png">
+            <a class="navbar-brand">Sea Monster</a>
+        </div>
+        
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a>
+                <li class="nav-item"><a class="nav-link" href="#">Donate</a></li>
+              </ul>
+     </nav>
 
     <!-- background info about company -->
-    <h2>Welcome to Sea Monster!</h2>
+    <div class="body-text">
+        <h2>Welcome to Sea Monster!</h2>
+    </div>
     <div id="description-container">
         <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
     </div>
 
     <!-- top games & other interesting stats -->
-    <h2>Stats</h2>
+    <div class="stats-text">
+        <h2>Stats</h2>
+    </div>
     <div class="stats-container">
         <div class="stats-card">
             <h3>Individual Contributions</h3>
@@ -48,17 +65,24 @@
     </div>
 
     <!-- list of games funded by Sea Monster -->
-    <h2>Our Games</h2>
-    <p>Check out each of our games below!</p>
+    <div class="text">
+        <h2>Our Games</h2>
+        <p>Check out each of our games below!</p>
+    </div>
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
         <button id="funded-btn">Show Funded Only</button>
         <button id="all-btn">Show All Games</button>
+        <div class = "box">
+            <form name="search">
+                <input type="text" id= "search-input" class="search-input" onmouseout="this.value = ''; this.blur();" />
+            </form>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        
     </div>
-    <div id="games-container">
-
-    </div>
-
-    <script type="module" src="index.js"></script>
+    <div id="games-container"></div>
+    <div id = "results"></div>
+    <script type="module" src="index.js" defer></script>
   </body>
 </html>
