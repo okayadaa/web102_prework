@@ -25,7 +25,11 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-[<iframe src="https://www.loom.com/embed/7762b0659f184a6ea8944a8be1836f79?sid=5e23267e-9cef-4d9d-95c9-ae3ca25edc63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>](https://www.loom.com/share/7762b0659f184a6ea8944a8be1836f79?sid=ea774a7b-6e54-41e3-9407-88cc8168c3d3)
+
+https://github.com/user-attachments/assets/5065a2d0-3a0b-4b3e-bdb8-11e6628f0b9e
+
+
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
