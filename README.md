@@ -17,15 +17,15 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] Implemented a search functionality accesible for users to search for a specific game by their name using a responsive input field, with support for pressing enter or typing live to trigger real time search result
-* [ ] After search, input field clears out and streamlining repeated searches
-* [ ] Added an animated logo in the navigation bar to improve visual engagement and provide a refine, dynamic user interface
+* [✅] Implemented a search functionality accesible for users to search for a specific game by their name using a responsive input field, with support for pressing enter or typing live to trigger real time search result
+* [✅] After search, input field clears out and streamlining repeated searches
+* [✅] Added an animated logo in the navigation bar to improve visual engagement and provide a refine, dynamic user interface
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/7762b0659f184a6ea8944a8be1836f79?sid=5e23267e-9cef-4d9d-95c9-ae3ca25edc63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+[<iframe src="https://www.loom.com/embed/7762b0659f184a6ea8944a8be1836f79?sid=5e23267e-9cef-4d9d-95c9-ae3ca25edc63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>](https://www.loom.com/share/7762b0659f184a6ea8944a8be1836f79?sid=ea774a7b-6e54-41e3-9407-88cc8168c3d3)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
